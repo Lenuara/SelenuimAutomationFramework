@@ -23,10 +23,10 @@ public class LoginTest extends BaseTest {
 		test.info("Adding Credentials");
 		loginPage.enterUserName("admin@yourstore.com");
 		loginPage.enterPassword("admin123");
+		Thread.sleep(8000);
 		test.info("Clicking om Login button");
 		loginPage.clickLogin();
-		
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 	
 
 		System.out.println("Заголовок этой страницы: " + driver.getTitle());
