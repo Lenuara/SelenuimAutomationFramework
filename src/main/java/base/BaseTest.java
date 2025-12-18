@@ -55,7 +55,7 @@ public class BaseTest {
 		
 		if (driver != null) {
 			Log.info("Closing Browser...");
-//			driver.quit();
+			driver.quit();
 		}
 	}
 
